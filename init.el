@@ -1,3 +1,5 @@
+(set-face-attribute 'default nil :height 100)
+
 (setq-default major-mode 'text-mode)
 (menu-bar-mode -1)
 (tool-bar-mode -1)
@@ -61,10 +63,13 @@
 
 ;;*************************************************************
 
-(global-set-key (kbd "<C-S-up>") 'windmove-up)
-(global-set-key (kbd "<C-S-down>") 'windmove-down)
-(global-set-key (kbd "<C-S-right>") 'windmove-right)
-(global-set-key (kbd "<C-S-left>") 'windmove-left)
+(global-set-key (kbd "<C-S-up>") 'buf-move-up)
+(global-set-key (kbd "<C-S-down>") 'buf-move-down)
+(global-set-key (kbd "<C-S-right>") 'buf-move-right)
+(global-set-key (kbd "<C-S-left>") 'buf-move-left)
+
+(when (fboundp 'windmove-default-keybindings)
+  (windmove-default-keybindings))
 
 (global-set-key (kbd "M-p") 'package-list-packages)
 
