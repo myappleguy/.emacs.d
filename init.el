@@ -13,6 +13,9 @@
 
 (add-to-list 'load-path "~/.emacs.d/elpa")
 
+;;(add-to-list 'load-path "~/emacs.d/emmet-mode")
+;;(require 'emmet-mode)
+
 (add-to-list 'package-archives
   '("melpa" . "http://melpa.milkbox.net/packages/") t)
 (add-to-list 'package-archives
@@ -39,11 +42,16 @@
 (add-hook 'emacs-lisp-mode-hook 'paredit-mode)
 (add-hook 'emacs-lisp-mode-hook 'rainbow-delimiters-mode)
 
+(add-hook 'sgml-mode-hook 'emmet-mode) ;; Auto-start on any markup modes
+(add-hook 'css-mode-hook  'emmet-mode) ;; enable Emmet's css abbreviation
+
 ;;*************************************************************
 
+(setq cider-show-error-buffer nil)
 (setq nrepl-buffer-name-show-port t)
 (setq cider-repl-display-in-current-window t) ;;C-c C-z show cider repl in current window
 (setq cider-repl-result-prefix ";; => ")
+;; Not working! (setq cider-known-endpoints '(("groops" "127.0.0.1" "8030")))
 (setq-default tab-width 2) ;; Tab width of 2
 (fset 'yes-or-no-p 'y-or-n-p) ;; Accept y or n instead of whole word
 

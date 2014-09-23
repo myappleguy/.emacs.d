@@ -1,0 +1,20 @@
+;;;; Emacs Bookmark Format Version 1 ;;;;
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("floobits-nickgeoca-219"
+ (filename . "~/workspace/comments/src/clj/comments/core.clj")
+ (front-context-string . "\nthis file is tr")
+ (rear-context-string . "nicks edits!!\nfj")
+ (position . 8384))
+("floobits-norman-217"
+ (filename . "~/workspace/comments/src/clj/comments/core.clj")
+ (front-context-string)
+ (rear-context-string . "s trashed!!!\nyup")
+ (position . 8412))
+("floobits-DeltaAlphaRho-188"
+ (filename . "~/workspace/comments/src/clj/comments/core.clj")
+ (front-context-string)
+ (rear-context-string . "e}))\n  server)\n\n")
+ (position . 8321))
+)

@@ -75,7 +75,7 @@ The `nrepl-buffer-name-separator' separates cider-repl from the project name."
   :type 'string
   :group 'nrepl)
 
-(defcustom nrepl-port nil
+(defcustom nrepl-port "8030"
   "The default port to connect to."
   :type 'string
   :group 'nrepl)
