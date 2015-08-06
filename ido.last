@@ -1,0 +1,41 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/502380037/" . ".emacs.d/")
+ ("/Users/" . "502380037/")
+ ("/Users/502380037/code/reaperbot-cookbook/" . "recipes/")
+ ("/Users/502380037/code/" . "reaperbot-cookbook/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/502380037/.emacs.d/"
+ "/Users/502380037/code/reaperbot-cookbook/recipes/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init.el"
+ "reaperbot.rb"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/502380037/.emacs.d/" (21954 38820 0 0) "README.md" "init.el" "ido.last~" "ido.last" "games/" "eshell/" "elpa/" "drills/" "bookmarks" "auto-save-list/" "ac-comphist.dat" ".gitignore" ".git/" "#init.el#" "../" "./")
+
+ ("/Users/502380037/" (21954 38823 0 0) "Whiteboard.ucf" "virtualenv-12.1.1.tar.gz" "virtualenv-12.1.1/" "VirtualBox VMs/" "tmux_tmp/" "tmux-1.9a/" "tmp_creds.sh" "temp.yml" "reaperbot-0.0.1.gem" "README.md" "Public/" "Pictures/" "packer/" "openssl-1.0.1j.tar.gz" "node_modules/" "MyJabberFiles/" "my_vim/" "Music/" "Movies/" "local/" "Library/" "keys/" "JD-GUI" "install_tmux" "install.sh" "floobits/" "fake_rest_api_backup/" "dump.rdb" "Downloads/" "Documents/" "divvycloud-installer.py" "divvycloud/" "Desktop/" "config" "code/" "Applications/" ".zshrc" ".zsh_history" ".zsh-update" ".zlogin" ".zcompdump-NSK1502380037M-5.0.7" ".zcompdump-NSK1502380037M-5.0.2" ".xl-deploy-cli/" ".vimrc" ".viminfo" ".vim/" ".vagrant.d/" ".Trash/" ".tmux.conf" ".thefuck/" ".terraform.d/" ".subversion/" ".ssh/" ".spacemacs" ".smex-items" ".rvm/" ".rnd" ".reorg.txt" ".rediscli_history" ".pry_history" ".profile" ".pip/" ".packer.d/" ".oh-my-zsh/" ".npm/" ".node-gyp/" ".NERDTreeBookmarks" ".mindterm/" ".local/" ".lesshst" ".irb-history" ".ipython/" ".gvimrc" ".guard_history" ".gitconfig" ".gemrc" ".gem/" ".fog" ".floorc.json" ".emacs.d/" ".DS_Store" ".directory_history/" ".config/" ".chefdk/" ".CFUserTextEncoding~" ".CFUserTextEncoding" ".cache/" ".berkshelf/" ".bashrc" ".bash_profile" ".bash_history" ".aws/" ".ackrc" ".account" "../" "./")
+
+ ("/Users/" (21620 32718 0 0) "wsroot/" "Shared/" "502380037/" ".localized" "../" "./")
+
+ ("/Users/502380037/code/reaperbot-cookbook/recipes/" (21954 16943 0 0) "user.rb" "rvm.rb" "redis.rb" "reaperbot.rb" "packages.rb" "default.rb" "../" "./")
+
+ ("/Users/502380037/code/reaperbot-cookbook/libraries/" (21882 15465 0 0) "../" "./")
+
+ ("/Users/502380037/code/reaperbot-cookbook/" (21953 27547 0 0) "Vagrantfile.erb" "test/" "templates/" "spec/" "runlist.json" "run_cookbooks.sh" "resources/" "recipes/" "README.md" "providers/" "metadata.rb" "libraries/" "Gemfile.lock" "Gemfile" "files/" "definitions/" "CHANGELOG.md" "Berksfile.lock" "Berksfile" "attributes/" "a_cookbook_runner.sh" ".notes.rb" ".kitchen.yml" ".kitchen/" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/502380037/code/" (21952 53898 0 0) "xlrelease_server/" "xlrelease_response.html" "xlrelease_api_gem/" "xlrelease_api-documentation/" "xlrelease.json" "web_template" "vmbase/" "trello_keys.yml" "tpickle_cf/" "TODO" "tmux_ge/" "testing_config_constructor/" "testing_berks_new/" "test_web_template/" "test_vagrant/" "test_terraform/" "test_secret_rake/" "test_packer/" "test_new_gr-config-constructor/" "test_minimart/" "test_find_delete/" "test_cookbook-dev-a/" "test_configuration_dir/" "test_chef/" "test_bundle_clean/" "test-kitchen/" "test-cookbook-prd-a/" "test-cookbook-dev-b/" "tag_fixer/" "strike-zone/" "specs.4.8.gz" "sns-test-api/" "shell-header-0.0.1.gem" "shell-header/" "sharesdb-ui/" "shares-db-api/" "shares-db/" "ruby-style-guide/" "rubibots/" "rprbt-policies-grc/" "rprbt-grc/" "rprbot_crap/" "reg_api_applications_pp.json" "reg_api_applications.json" "redis/" "reaperbot_me/" "reaperbot_assume_role_results.txt" "reaperbot-web/" "reaperbot-cookbook/" "reaperbot v3 notes" "reaperbot/" "portunes/" "policies.zip" "pair_box_cookbook/" "packer_0.7.5/" "openidc/" "one_template.json" "omnibus-software/" "omnibus/" "ohai/" "news122/" "NetApp.rb/" "needed_gems_rprbt.rb" "mock-api-server/" "minmart_2/" "minimart_sync/" "minimart/" "lita_bot/" "knife-ec2/" "kitchen_tester/" "json_server/" "js_angular_simple/" "jenkins_marion/" "jenkins_config_constructor_job/" "jenkins_build.rb" "jenkins_api_client/" "jenkins-rails/" "ips_for_ssh.yml" "infra_test/" "infra-hc-mri-nfl/" "index.html" "htpasswd-cookbook/" "hr-ref-guide/" "hc-mri-nfl/" "guard-foodcritic/" "grtcatvanilla/" "gr-jira/" "gr-infra-constructor/" "gr-gem-repo/" "gr-config-constructor/" "gr-chef-server/" "gr-base-cookbook/" "gr-apache2-oidc/" "gocode/" "ge-reaperbot-policies/" "ge-front-end-code/" "forked_jira/" "fog-test/" "dump.rdb" "divvy_test/" "deltacloud-core/" "customizing_chef/" "current_policy/" "cumulus/" "crash_12-23-14.txt" "cookbooks.tar.gz" "constructor_test_config/" "configure_shit/" "config_test_script/" "config_test/" "config_constructor_test/" "config-hc-mri-nfl/" "compare_strings.rb" "cloudformer/" "cloud_former_base_infrastructure/" "cloud_dashboard/" "chef-zero/" "chef-server-cloudformation-templates/" "chef-provisioning-aws/" "chef-provisioning/" "cf-templates/" "by groups in ldap, openid connect." "bot_api_server/" "bot_api_cookbook/" "base_infra_cloudformer_task.rake" "bas_infra_constructor.json" "bas_config_constructor.json" "aws-tools/" "aws-infrastructure/" "aws-dashboard/" "aws-creds-checker/" "auto-config-infra-templates/" "api_checker.rb" "angular_testing/" "active-lita/" "acs-inspired/" "a3hubot/" ".DS_Store" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
